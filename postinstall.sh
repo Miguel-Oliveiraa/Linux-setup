@@ -1,55 +1,56 @@
 #!/usr/bin/env bash
 
 #----- System Update
-sudo pacman -Syu
+sudo apt-get -Syu
 
 #----- Zsh
-sudo pacman -S zsh zsh-completions
+sudo apt-get install zsh zsh-completions
 chsh -s /usr/bin/zsh
 
 #--------- APPS
 
 #- neofetch
-sudo pacman -S neofetch
+sudo apt-get install neofetch
 
 #- vscode
-sudo pacman -S code
+sudo apt-get install code
 
 #- python
-sudo pacman -S python
+sudo apt-get install python
 
 #- node and npm
-sudo pacman -S nodejs npm
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - &&\
+sudo apt-get install -y nodejs
 
 #- deno
-sudo pacman -S deno
+sudo apt-get install deno
 
 #- rust
-sudo pacman -S rust rustup
+sudo apt-get install rust rustup
 
 #- clion
-sudo pacman -S clion
+sudo apt-get install clion
 
 #- pycharm
-sudo pacman -S pycharm-professional
+sudo apt-get installpycharm-professional
 
 #- insomnia
-sudo pacman -S insomnia
+sudo apt-get install insomnia
 
 #- spotify
-sudo pacman -S spotify
+sudo apt-get install spotify
 
 #- google-chrome
-sudo pacman -S google-chrome
+sudo apt-get install google-chrome
 
 #- flatpak
-sudo pacman -S flatpak
+sudo apt-get install flatpak
 
 #- discord
 flatpak install flathub com.discordapp.Discord
 
 #----- System Update
-sudo pacman -Syu
+sudo apt-get update
 
 
 #----- Visuals
