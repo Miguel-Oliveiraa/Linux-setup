@@ -13,7 +13,7 @@ chsh -s /usr/bin/zsh
 sudo apt-get install neofetch
 
 #- vscode
-sudo apt-get install code
+sudo snap install --classic code
 
 #- python
 sudo apt-get install python
