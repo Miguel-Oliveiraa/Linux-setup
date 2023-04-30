@@ -1,47 +1,32 @@
 #!/usr/bin/env bash
 
 #----- System Update
-sudo apt-get -Syu
+sudo apt install curl
 
-#----- Zsh
-sudo apt-get install zsh zsh-completions
-chsh -s /usr/bin/zsh
+sudo apt install snap
 
 #--------- APPS
 
+#- SDKMAN!
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk install java
+
+#- intelliJ
+sudo snap install intellij-idea-ultimate --classic
+
 #- neofetch
-sudo apt-get install neofetch
+sudo apt install neofetch
 
-#- vscode
-sudo snap install --classic code
-
-#- python
-sudo apt-get install python
+#- python3
+sudo apt install python3
 
 #- node and npm
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - &&\
 sudo apt-get install -y nodejs
 
-#- deno
-sudo apt-get install deno
-
-#- rust
-sudo apt-get install rust rustup
-
-#- clion
-sudo apt-get install clion
-
-#- pycharm
-sudo apt-get installpycharm-professional
-
 #- insomnia
 sudo apt-get install insomnia
-
-#- spotify
-sudo apt-get install spotify
-
-#- google-chrome
-sudo apt-get install google-chrome
 
 #- flatpak
 sudo apt-get install flatpak
