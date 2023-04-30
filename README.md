@@ -1,2 +1,2 @@
-# arch-setup
-My custom post install setup for arch linux
+# linux-setup
+My custom post install setup for debian linux
