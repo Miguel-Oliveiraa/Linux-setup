@@ -29,7 +29,7 @@ curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - &&\
 sudo apt-get install -y nodejs
 
 #- insomnia
-sudo apt-get install insomnia
+sudo snap install insomnia
 
 #- flatpak
 sudo apt-get install flatpak
