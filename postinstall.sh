@@ -35,7 +35,7 @@ sudo snap install insomnia
 sudo apt-get install flatpak
 
 #- discord
-flatpak install flathub com.discordapp.Discord
+sudo snap install discord
 
 #----- System Update
 sudo apt-get update
