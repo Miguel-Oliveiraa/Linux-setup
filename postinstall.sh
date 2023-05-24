@@ -31,9 +31,6 @@ sudo apt-get install -y nodejs
 #- insomnia
 sudo snap install insomnia
 
-#- flatpak
-sudo apt-get install flatpak
-
 #- discord
 sudo snap install discord
 
