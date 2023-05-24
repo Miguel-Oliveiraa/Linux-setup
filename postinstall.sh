@@ -21,6 +21,9 @@ sudo apt install neofetch
 #- python3
 sudo apt install python3
 
+#- pycharm
+sudo snap install pycharm-professional --classic
+
 #- node and npm
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - &&\
 sudo apt-get install -y nodejs
