@@ -15,6 +15,9 @@ sdk install java
 #- intelliJ
 sudo snap install intellij-idea-ultimate --classic
 
+#- clion
+sudo snap install clion --classic
+
 #- neofetch
 sudo apt install neofetch
 
