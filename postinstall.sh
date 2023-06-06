@@ -15,6 +15,9 @@ sdk install java
 #- intelliJ
 sudo snap install intellij-idea-ultimate --classic
 
+#- git
+sudo apt install git
+
 #- clion
 sudo snap install clion --classic
 
