@@ -49,6 +49,8 @@ sudo apt-get update
 
 #----- Visuals
 
+#- firefox-theme
+#https://addons.mozilla.org/en-US/firefox/addon/nicothin-dark-magic/
 #- Application Style
 #Breeze
 #- Plasma Style
@@ -63,5 +65,3 @@ sudo apt-get update
 # WhiteSur-Dark or Kora
 #- Cursors
 #macOS-BigSur
-#- Splash Screen
-#Red Arch or None
