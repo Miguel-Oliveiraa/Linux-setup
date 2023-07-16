@@ -33,8 +33,8 @@ sudo snap install pycharm-professional --classic
 #- node and npm
 sudo snap install node --classic
 
-#- insomnia
-sudo snap install insomnia
+#- postman
+sudo snap install postman
 
 #- discord
 sudo snap install discord
