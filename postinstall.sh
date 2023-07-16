@@ -15,6 +15,7 @@ sdk install java
 
 #- intelliJ
 sudo snap install intellij-idea-ultimate --classic
+intellij-idea-ultimate
 
 #- git
 sudo dnf install git
@@ -30,6 +31,7 @@ sudo apt install python3
 
 #- pycharm
 sudo snap install pycharm-professional --classic
+pycharm-professional
 
 #- node and npm
 sudo snap install node --classic
