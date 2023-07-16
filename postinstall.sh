@@ -3,7 +3,8 @@
 #----- System Update
 sudo dnf install curl
 
-# sudo apt install snap
+sudo dnf install snapd
+sudo ln -s /var/lib/snapd/snap /snap
 
 #--------- APPS
 
