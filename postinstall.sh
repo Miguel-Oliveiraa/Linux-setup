@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 #----- System Update
-sudo apt install curl
+sudo dnf install curl
 
-sudo apt install snap
+# sudo apt install snap
 
 #--------- APPS
 
