@@ -43,9 +43,6 @@ sudo snap install discord
 #- xmind
 sudo snap install xmind
 
-#----- System Update
-sudo apt-get update
-
 
 #----- Visuals
 
