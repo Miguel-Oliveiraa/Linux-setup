@@ -1,2 +1,2 @@
 # linux-setup
-My custom post install setup for debian linux
+My custom post install setup for fedora linux
