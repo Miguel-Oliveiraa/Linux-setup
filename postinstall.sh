@@ -16,13 +16,13 @@ sdk install java
 sudo snap install intellij-idea-ultimate --classic
 
 #- git
-sudo apt install git
+sudo dnf install git
 
 #- clion
 sudo snap install clion --classic
 
 #- neofetch
-sudo apt install neofetch
+sudo dnf install neofetch
 
 #- python3
 sudo apt install python3
