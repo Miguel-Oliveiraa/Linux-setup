@@ -52,8 +52,7 @@ sudo apt install gnome-shell-extensions
 # dark
 #https://addons.mozilla.org/en-US/firefox/addon/nicothin-dark-magic/
 # nordic
-#git clone https://github.com/EliverLara/firefox-nordic-theme && cd firefox-nordic-theme
-./scripts/install.sh
+#git clone https://github.com/EliverLara/firefox-nordic-theme && cd firefox-nordic-theme./scripts/install.sh
 
 #- firefox-extensios:
 #https://addons.mozilla.org/en-US/firefox/addon/humble-new-tab/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
