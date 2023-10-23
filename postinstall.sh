@@ -5,7 +5,7 @@ sudo apt install -y wget
 
 sudo apt install -y curl
 
-sudo apt install -y snap
+sudo apt install -y snapd
 
 #--------- APPS
 
