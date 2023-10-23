@@ -20,36 +20,36 @@ source "$HOME/.sdkman/bin/sdkman-init.sh"
 sdk install java
 
 #- intelliJ
-sudo snap install -y intellij-idea-ultimate --classic
+sudo snap install intellij-idea-ultimate --classic
 # intellij-idea-ultimate
 
 #- git
-sudo apt install -y git
+sudo apt install git
 
 #- neofetch
-sudo apt install -y neofetch
+sudo apt install neofetch
 
 #- python3
-sudo apt install -y python3
+sudo apt install python3
 
 #- pycharm
-sudo snap install -y pycharm-professional --classic
+sudo snap install pycharm-professional --classic
 # pycharm-professional
 
 #- node and npm
-sudo snap install -y node --classic
+sudo snap install node --classic
 
 #- postman
-sudo snap install -y postman
+sudo snap install postman
 
 #- discord
-sudo snap install -y discord
+sudo snap install discord
 
 #- xmind
-sudo snap install -y xmind
+sudo snap install xmind
 
 #- gnome extensions
-sudo apt install -y gnome-shell-extensions
+sudo apt install gnome-shell-extensions
 # https://extensions.gnome.org/extension/3396/color-picker/
 # https://extensions.gnome.org/extension/779/clipboard-indicator/
 # https://extensions.gnome.org/extension/1460/vitals/
