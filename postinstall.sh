@@ -13,7 +13,6 @@ sudo apt install -y snapd
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt-get install ./google-chrome-stable_current_amd64.deb
 
-
 #- SDKMAN!
 curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
@@ -33,9 +32,6 @@ apt install rustc && apt install cargo
 
 #- Rust path variable
 export PATH="$HOME/.cargo/bin:$PATH"
-
-#- python3
-sudo apt install python3
 
 #- pycharm
 sudo snap install pycharm-professional --classic
