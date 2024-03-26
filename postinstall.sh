@@ -21,13 +21,18 @@ sdk install java
 
 #- intelliJ
 sudo snap install intellij-idea-ultimate --classic
-# intellij-idea-ultimate
 
 #- git
 sudo apt install git
 
 #- neofetch
 sudo apt install neofetch
+
+#- Rust compiler
+apt install rustc && apt install cargo
+
+#- Rust path variable
+export PATH="$HOME/.cargo/bin:$PATH"
 
 #- python3
 sudo apt install python3
@@ -45,9 +50,6 @@ sudo snap install postman
 #- discord
 sudo snap install discord
 
-#- xmind
-sudo snap install xmind
-
 #- gnome extensions
 sudo apt install gnome-shell-extensions
 # https://extensions.gnome.org/extension/3396/color-picker/
@@ -58,26 +60,3 @@ sudo apt install gnome-shell-extensions
 #update
 sudo apt -y upgrade
 sudo apt -y update
-
-#- firefox-theme
-# dark
-#https://addons.mozilla.org/en-US/firefox/addon/nicothin-dark-magic/
-# nordic
-#git clone https://github.com/EliverLara/firefox-nordic-theme && cd firefox-nordic-theme./scripts/install.sh
-
-#- firefox-extensios:
-#https://addons.mozilla.org/en-US/firefox/addon/humble-new-tab/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
-
-#- Tweaks 
-#sudo apt install -y gnome-tweaks
-# icons
-#sudo add-apt-repository ppa:papirus/papirus
-#sudo apt update && sudo apt install papirus-icon-theme
-#- Application Style
-#Breeze
-#https://github.com/simoniz0r/breeze-gtk
-#Nordic
-#gsettings set org.gnome.desktop.interface gtk-theme "Nordic"
-#gsettings set org.gnome.desktop.wm.preferences theme "Nordic"
-#- Fonts
-#SF Pro Display 10pt
