@@ -11,7 +11,8 @@ sudo apt install -y snapd
 
 #- chroome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt-get install ./google-chrome-stable_current_amd64.deb
+sudo apt install libappindicator3-1 libgbm1 libindicator3-7 libu2f-udev
+sudo dpkg -i google-chrome-stable_current_amd64.deb 
 
 #- SDKMAN!
 curl -s "https://get.sdkman.io" | bash
