@@ -83,6 +83,22 @@ sudo usermod -aG kvm $USER
 # Activate docker pass
 #https://docs.docker.com/desktop/get-started/#credentials-management-for-linux-users
 
+#- Install postgresql
+sudo sh -c 'echo "deb https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get update
+sudo apt-get -y install postgresql
+
+#- Install pgadmin
+# Install the public key for the repository (if not done previously):
+curl -fsS https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /usr/share/keyrings/packages-pgadmin-org.gpg
+# Create the repository configuration file:
+sudo sh -c 'echo "deb [signed-by=/usr/share/keyrings/packages-pgadmin-org.gpg] https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'
+# Install for both desktop and web modes:
+sudo apt install pgadmin4
+# Configure the webserver, if you installed pgadmin4-web:
+sudo /usr/pgadmin4/bin/setup-web.sh
+
 #- gnome extensions
 sudo apt install gnome-shell-extensions
 # https://extensions.gnome.org/extension/3396/color-picker/
