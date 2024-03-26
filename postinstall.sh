@@ -80,6 +80,8 @@ sudo usermod -aG kvm $USER
 
 #Instalador docker desktop
 #https://docs.docker.com/desktop/install/ubuntu/
+# Activate docker pass
+#https://docs.docker.com/desktop/get-started/#credentials-management-for-linux-users
 
 #- gnome extensions
 sudo apt install gnome-shell-extensions
